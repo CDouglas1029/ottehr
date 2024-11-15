@@ -1,41 +1,3 @@
-<p align="center">
-   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://assets-global.website-files.com/653fce065d76f84cf31488ae/6543bdda5daec299834a748e_otter%20logo%20white.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://assets-global.website-files.com/653fce065d76f84cf31488ae/65438838a5f9308ca9498887_otter%20logo%20dark.svg">
-      <img alt="Ottehr Logo.">
-   </picture>
-</p>
-
-<p align="center">The production-ready, open-source EHR</p>
-
-<p align="center">
-    <a href="https://www.ottehr.com/"><b>Ottehr.com</b></a>
-</p>
-
-<div align="center">
-
-[![Last Commit](https://badgen.net/github/last-commit/masslight/ottehr)](https://github.com/masslight/ottehr/commits/develop)
-[![Code Size](https://img.shields.io/github/languages/code-size/masslight/ottehr)](https://github.com/masslight/ottehr)
-[![Contributors](https://badgen.net/github/contributors/masslight/ottehr)](https://github.com/masslight/ottehr/graphs/contributors)
-[![GitHub Issues](https://badgen.net/github/issues/masslight/ottehr)](https://github.com/masslight/ottehr/issues)
-[![GitHub Stars](https://badgen.net/github/stars/masslight/ottehr)](https://github.com/masslight/ottehr/stargazers)
-[![GitHub Pull Requests](https://badgen.net/github/prs/masslight/ottehr)](https://github.com/masslight/ottehr/pulls)
-![GitHub Pull Requests Closed](https://img.shields.io/github/issues-pr-closed/masslight/ottehr)
-
-</div>
-
-# Ottehr
-
-This monorepo contains code for [Ottehr telehealth](https://www.ottehr.com/).
-
-Ottehr is a modern, modular EHR that began as a reference implementation for [Oystehr](https://oystehr.com). It quickly outgrew "sample EHR" status and became the foundation for large-scale production EHR installations. Ottehr uses Oystehr for back-end service endpoints, and requires a free Oystehr account to run as-is, but you are welcome to modify and use a third-party service vendor or build your own service architecture. Ottehr is designed for developers, hopefully making it easy to fork, white-label, and build entire new classes of EHRs and health-tech products with a fraction of the effort of starting from scratch.
-
-## Setup
-
-Ottehr currently has two websites. One is for patients -- **Ottehr Intake** -- and one is for staff -- **Ottehr EHR**.
-
-* **[Ottehr Intake](packages/telemed-intake):** A patient-facing registration website for creating appointments, with features including rescheduling, checking in, text messages and emails, and listing appointments for an account
-* **[Ottehr EHR](packages/telemed-ehr/):** A staff-facing EHR for managing appointments created, with features including checking appointments, managing patient queues, texting patients, updating a location's slots, setting a location's schedule, joining telemedicine calls, HPI and medical history, exam charting, eRx and Assessment, patient plan, coming soon: RCM and claims submission
 
 ## First Time Setup
 
@@ -255,6 +217,3 @@ _At this time, dynamic theming and localization is only supported for the `telem
 - Modify the images, svgs, colors and translation files as needed
 - Restart the app
 
-
-## Contribute to Ottehr
-We love it when you contribute to Ottehr! By submitting to this project, you agree to adopt the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) for your contributions.
